@@ -1,0 +1,100 @@
+/* Bibliography:
+Source: Cem Eygi Media. (2022, January 14). CSS Position: Relative, Absolute, Fixed, 
+Sticky Explained | CSS Positioning Tutorial for Beginners. Youtube.*/ 
+
+body {
+    height: 250vh;
+}
+
+.housing {
+    width: 450px;
+    height: 450px;
+    border: 2px solid white;
+    margin: auto;
+    position: relative;
+}
+
+.box1 {
+    width: 150px;
+    height: 150px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.box3 {
+    width: 150px;
+    height: 150px;
+    border-right: 1px solid black;
+}
+
+.box4 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 151px;
+    bottom: 452px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.box5 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 151px;
+    bottom: 451px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.box6 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 151px;
+    bottom: 451px;
+    border-right: 1px solid black;
+}
+
+.box7 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 302px;
+    bottom: 903px;
+    border-bottom: 1px solid black;
+}
+
+.box8 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 302px;
+    bottom: 903px;
+    border-bottom: 1px solid black;
+}
+
+.box9 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 302px;
+    bottom: 903px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 90px;
+    margin: auto;
+    text-align: center;
+    padding-top: 24px;
+
+
+}

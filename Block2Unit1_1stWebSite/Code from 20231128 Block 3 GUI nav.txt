@@ -1,0 +1,220 @@
+//Code from 20231128 Blcok 3 GUI navagation and 1st web page dev
+
+mesquare@ME-NITRO5 ~ % ls
+mesquare@ME-NITRO5 ~ % cd /mnt/c/Users/ME/
+mesquare@ME-NITRO5 ME % ls
+ AppData
+'Application Data'
+ Contacts
+ Cookies
+'Creative Cloud Files'
+ Desktop
+ Documents
+ Downloads
+ Favorites
+ Links
+'Local Settings'
+ Music
+'My Documents'
+ NTUSER.DAT
+ NTUSER.DAT{318f236c-51bc-11ed-a350-fb5a5e694149}.TM.blf
+ NTUSER.DAT{318f236c-51bc-11ed-a350-fb5a5e694149}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{318f236c-51bc-11ed-a350-fb5a5e694149}.TMContainer00000000000000000002.regtrans-ms
+ NetHood
+ Pictures
+ PrintHood
+ Recent
+'Saved Games'
+ Searches
+ SendTo
+'Start Menu'
+ Templates
+ Videos
+ WebstormProjects
+ ansel
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+mesquare@ME-NITRO5 ME % cd 'My Documents'
+mesquare@ME-NITRO5 My Documents % ls
+'000 ME Writing for Post'                                      'ME Military Medical'
+ 00ME_NITRO5                                                   'ME Military Training'
+ 01Conf                                                        'ME Personal Files'
+'2021 Taxes'                                                   'MERE text from phone reset 20230517.PDF'
+'2022 Taxes'                                                   'ME_DELL System Information'
+ 20220205USAA_sa_annual_allocation_statement_5176.pdf           ME_Firefox_bookmarks-2022-05-02.json
+'2023 Taxes'                                                    ME_Firefox_bookmarks.html
+ 3M                                                            'Magnavox Heater'
+ Adobe                                                         'Matt - text (Dikes)'
+'Afghanistan photos_files'                                     'Microsoft Auto Recovery'
+ CN621FW2R5_FAX                                                'Military Retirement'
+'Cholesterol Reduction'                                        "Monty's Notebook.url"
+ College                                                       'My Military'
+'Contact Archive 20210930.xlsx'                                'My Music'
+'Contact Archive 20220224.xlsx'                                'My Pictures'
+ Contacts_Galaxy10_20150517.vcf                                'My Shapes'
+ Contacts_Galaxy10_20211230.vcf                                'My Videos'
+'Copy of ACCP'                                                 'No Matter What.wmv'
+'Covid Info'                                                   'OneNote Notebooks'
+'Custom Office Templates'                                      'Online Courses'
+ Desktop                                                       'Order confirmation - CompTIA Marketplace.pdf'
+'Divergence Academy'                                           'Outlook Files'
+'Document Development'                                          PIcs
+'ECHO PAS 225SB Trimmer'                                        Polymer80-RJ556U-Build-Instructions.pdf
+ Environment                                                    Recipes
+'Environmental Health Safety Management'                       'Register 20210812.xlsx'
+ Equipment                                                     'Register 20210907.xlsx'
+'Ext. Harddrive'                                               'Register 20220224.xlsx'
+ Fax                                                            Registers
+'Federal Technician'                                           'Resume_Cover Letter'
+'From ME_DELL Pics 20220309'                                   "Robin's Files"
+'FullStack Academy'                                            'Scanned Documents'
+ HpReg_Backup                                                   Scratch
+'ID Card location near greater Bristol area.png'               'Tech File'
+'IPERMS 20231121 Record Dwnld'                                 'To My Beautiful Wife.docx'
+'IPERMS Record 20230626 dwnld'                                 'Types of transferrable skills.docx'
+'Information Theory'                                            USAA
+'Integrity, Skill Success, and ITU Training Course List.xlsx'   Unemployment
+"Judy's Estate"                                                'VA - GI Bill Upload'
+"Judy's panel bx 20210817.docx"                                'VA - GiBill'
+ Linkedln                                                      'VA - Health 2021'
+'Local Software'                                               'VA - Other'
+'ME Contact and Login Register.accdb'                          'VFCU - Acct Closure'
+'ME Emails from Afghanistan'                                   'Web sites to investigate.docx'
+'ME Emails from Iraq'                                           Zoom
+'ME Military Admin'                                             desktop.ini
+'ME Military Logistics'                                         test
+mesquare@ME-NITRO5 My Documents % cd Fullstack Academy
+cd: string not in pwd: Fullstack
+mesquare@ME-NITRO5 My Documents % cd /Fullstack Academy
+cd: string not in pwd: /Fullstack
+mesquare@ME-NITRO5 My Documents % cd /'Fullstack Academy'
+cd: no such file or directory: /Fullstack Academy
+mesquare@ME-NITRO5 My Documents % cd 'Fullstack Academy'
+mesquare@ME-NITRO5 Fullstack Academy % ls
+'API Resources'   Canvas  'Pre-Bootcamp Courses'  'School Information'
+mesquare@ME-NITRO5 Fullstack Academy % cd canvas
+mesquare@ME-NITRO5 canvas % cd..
+zsh: command not found: cd..
+mesquare@ME-NITRO5 canvas % cd ..
+mesquare@ME-NITRO5 Fullstack Academy % ls
+'API Resources'   Canvas  'Pre-Bootcamp Courses'  'School Information'
+mesquare@ME-NITRO5 Fullstack Academy % cd canvas
+mesquare@ME-NITRO5 canvas % ls
+MEBlock_2_Workshop_MyFirstWebsite.png  Unit1FrontendFoundations    index.css
+MEBlock_2_Workshop_MyFirstWebsite.zip  Unit1_Frontend_Foundations  index.html
+mesquare@ME-NITRO5 canvas % mkdir Temp File Loc
+mesquare@ME-NITRO5 canvas % ls
+File  MEBlock_2_Workshop_MyFirstWebsite.png  Temp                      Unit1_Frontend_Foundations  index.html
+Loc   MEBlock_2_Workshop_MyFirstWebsite.zip  Unit1FrontendFoundations  index.css
+mesquare@ME-NITRO5 canvas % cd temp
+mesquare@ME-NITRO5 temp % ls
+mesquare@ME-NITRO5 temp % cd ..
+mesquare@ME-NITRO5 canvas % rm Temp
+rm: cannot remove 'Temp': Is a directory
+mesquare@ME-NITRO5 canvas % rm Temp
+rm: cannot remove 'Temp': Is a directory
+mesquare@ME-NITRO5 canvas % rmdir Temp
+mesquare@ME-NITRO5 canvas % ls
+File  MEBlock_2_Workshop_MyFirstWebsite.png  Unit1FrontendFoundations    index.css
+Loc   MEBlock_2_Workshop_MyFirstWebsite.zip  Unit1_Frontend_Foundations  index.html
+mesquare@ME-NITRO5 canvas % mkdir Temp_File_Restore
+mesquare@ME-NITRO5 canvas % ls
+File  MEBlock_2_Workshop_MyFirstWebsite.png  Temp_File_Restore         Unit1_Frontend_Foundations  index.html
+Loc   MEBlock_2_Workshop_MyFirstWebsite.zip  Unit1FrontendFoundations  index.css
+mesquare@ME-NITRO5 canvas % ls
+File  MEBlock_2_Workshop_MyFirstWebsite.png  Temp_File_Restore         Unit1_Frontend_Foundations  index.html
+Loc   MEBlock_2_Workshop_MyFirstWebsite.zip  Unit1FrontendFoundations  index.css
+mesquare@ME-NITRO5 canvas % cd Temp_File_Restore
+mesquare@ME-NITRO5 Temp_File_Restore % mkdir Coursework
+mesquare@ME-NITRO5 Temp_File_Restore % ls
+Coursework
+mesquare@ME-NITRO5 Temp_File_Restore % cd coursework
+mesquare@ME-NITRO5 coursework % ls
+mesquare@ME-NITRO5 coursework % mkdir test
+mesquare@ME-NITRO5 coursework % cd ..
+mesquare@ME-NITRO5 Temp_File_Restore % cd ..
+mesquare@ME-NITRO5 canvas % ls
+File  MEBlock_2_Workshop_MyFirstWebsite.png  Temp_File_Restore         Unit1_Frontend_Foundations  index.html
+Loc   MEBlock_2_Workshop_MyFirstWebsite.zip  Unit1FrontendFoundations  index.css
+mesquare@ME-NITRO5 canvas % cd unit1_frontend-foundations
+cd: no such file or directory: unit1_frontend-foundations
+mesquare@ME-NITRO5 canvas % cd Unit1_Frontend_Foundations
+mesquare@ME-NITRO5 Unit1_Frontend_Foundations % cd Unit1_Frontend_Foundations
+cd: no such file or directory: Unit1_Frontend_Foundations
+mesquare@ME-NITRO5 Unit1_Frontend_Foundations % cd /Unit1_Frontend_Foundations
+cd: no such file or directory: /Unit1_Frontend_Foundations
+mesquare@ME-NITRO5 Unit1_Frontend_Foundations % ls
+block01  block02
+mesquare@ME-NITRO5 Unit1_Frontend_Foundations % cd block02
+mesquare@ME-NITRO5 block02 % ls
+'Block 2 Workshop_ My First Website.pdf'  'Block 2 Workshop_ Setting Up Your GitHub Account.pdf'   Hyperlinks   code.js
+mesquare@ME-NITRO5 block02 % cd ..
+mesquare@ME-NITRO5 Unit1_Frontend_Foundations % cd ..
+mesquare@ME-NITRO5 canvas % ls
+File  MEBlock_2_Workshop_MyFirstWebsite.png  Temp_File_Restore         Unit1_Frontend_Foundations  index.html
+Loc   MEBlock_2_Workshop_MyFirstWebsite.zip  Unit1FrontendFoundations  index.css
+mesquare@ME-NITRO5 canvas % cd Temp_File_Restore
+mesquare@ME-NITRO5 Temp_File_Restore % cd coursework
+mesquare@ME-NITRO5 coursework % ls
+block02
+mesquare@ME-NITRO5 coursework % cp -r block02 block03
+mesquare@ME-NITRO5 coursework % ls
+block02  block03
+mesquare@ME-NITRO5 coursework % cd block03
+mesquare@ME-NITRO5 block03 % ls
+'Block 2 Workshop_ My First Website.pdf'  'Block 2 Workshop_ Setting Up Your GitHub Account.pdf'   Hyperlinks   code.js
+mesquare@ME-NITRO5 block03 % cd ..
+mesquare@ME-NITRO5 coursework % code .
+Installing VS Code Server for x64 (1a5daa3a0231a0fbba4f14db7ec463cf99d7768e)
+Downloading: 100%
+Unpacking: 100%
+Unpacked 1522 files and folders to /home/mesquare/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e.
+mesquare@ME-NITRO5 coursework % code .
+mesquare@ME-NITRO5 coursework % code .
+mesquare@ME-NITRO5 coursework % code .
+mesquare@ME-NITRO5 coursework % [nano/vi/vim] block03/code.js
+zsh: no matches found: [nano/vi/vim]
+mesquare@ME-NITRO5 coursework % nano block03/code.js
+mesquare@ME-NITRO5 coursework % nano block03/code.js
+mesquare@ME-NITRO5 coursework % touch block03/code-touch.js
+mesquare@ME-NITRO5 coursework % node block03/code.js
+Monty Eller
+mesquare@ME-NITRO5 coursework % ls block03
+Block 2 Workshop_ My First Website.pdf
+Block 2 Workshop_ Setting Up Your GitHub Account.pdf
+Hyperlinks
+code-touch.js
+code.js
+mesquare@ME-NITRO5 coursework % explorer.exe .
+mesquare@ME-NITRO5 coursework % explorer.exe .
+mesquare@ME-NITRO5 coursework % cd /
+mesquare@ME-NITRO5 / % ls
+bin   dev  home  lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
+boot  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
+mesquare@ME-NITRO5 / % cd home
+mesquare@ME-NITRO5 /home % ls
+mesquare
+mesquare@ME-NITRO5 /home % cd mesquare
+mesquare@ME-NITRO5 ~ % ls
+mesquare@ME-NITRO5 ~ % mkdir Projects
+mesquare@ME-NITRO5 ~ % ls
+Projects
+mesquare@ME-NITRO5 ~ % cd projects
+cd: no such file or directory: projects
+mesquare@ME-NITRO5 ~ % cd Projects
+mesquare@ME-NITRO5 Projects % mk Coursework
+zsh: command not found: mk
+mesquare@ME-NITRO5 Projects % mkdir coursework
+mesquare@ME-NITRO5 Projects % cd Coursework
+cd: no such file or directory: Coursework
+mesquare@ME-NITRO5 Projects % ls
+coursework
+mesquare@ME-NITRO5 Projects % rm coursework
+rm: cannot remove 'coursework': Is a directory
+mesquare@ME-NITRO5 Projects % rmdir coursework
+mesquare@ME-NITRO5 Projects % ls
+mesquare@ME-NITRO5 Projects % mkdir Coursework
+mesquare@ME-NITRO5 Projects % ls
+Coursework
+mesquare@ME-NITRO5 Projects %

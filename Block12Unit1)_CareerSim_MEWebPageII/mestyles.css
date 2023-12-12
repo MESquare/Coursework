@@ -1,0 +1,203 @@
+/*Box sizing property*/
+
+* {
+  box-sizing: border-box;
+}
+
+/*Body margin and font-family sizes*/
+
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+/*Navagation*/
+
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: red;
+}
+
+/*Home/Main Page*/
+
+.mainintro {
+  margin-left: 8%;
+  margin-top: 10%;
+}
+
+.formdetbtn a {
+  margin: 10px 0 20px;
+} /*Select button for resume download - also located on contact page*/
+
+.mainintro a {
+  background: rgb(123, 123, 170);
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: orange;
+  display: inline-block;
+  margin: 30px o;
+  border-radius: 15px;
+} /*Select button for resume download attributes - also located on contact page*/
+
+.mainintro h1 {
+  font-size: 50px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.mainintro p {
+  color: gray;
+  line-height: 23px;
+}
+
+.mepicmain {
+  height: 65%;
+  position: fixed;
+  left: 75%;
+  top: 25%;
+  z-index: -5;
+}
+
+/*About ME landing page*/
+
+.mainintro2 {
+  margin-left: 8%;
+  margin-top: 10px;
+}
+
+.mecanvas2 {
+  position: fixed;
+  left: 75%;
+  top: 30%;
+  z-index: -5;
+}
+
+/*ME Portfolio landing page*/
+
+.mainintro3 {
+  margin-left: 8%;
+  margin-top: 50px;
+  padding-right: 50px;
+}
+
+.column {
+  width: 100%;
+  float: left;
+  width: 33%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-block-end: 0px;
+}
+
+/*ME Contact landing page*/
+
+.mainintro3 a {
+  background: rgb(123, 123, 170);
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: orange;
+  display: inline-block;
+  margin: 30px o;
+  border-radius: 15px;
+}
+
+/*Form Indention*/
+
+.formdet {
+  margin-left: 3%;
+}
+
+/*Future image for contact page
+.meothername {
+  position: fixed;
+  left: 28%;
+  top: 92%;
+  z-index: -5;
+}*/
+
+/*Other*/
+
+span {
+  color: rgb(123, 123, 170);
+}
+
+/*Responsive down to 600px*/
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #c1e1ec;
+  }
+
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+  }
+}
+
+/*Contact Page - Form*/
+#boldtxt {
+  font-weight: bold;
+  font-size: large;
+  color: orange;
+  border: solid;
+  border-radius: 10%;
+}
+
+/*Form Indention*/
+.formdet {
+  margin-left: 3%;
+}
+
+.formdetbtn {
+  margin-left: 3%;
+}

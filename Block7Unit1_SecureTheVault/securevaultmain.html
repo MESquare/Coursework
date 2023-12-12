@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="securevault.css" />
+    <title>Secure Vault</title>
+  </head>
+  <body>
+<!--Secure pin is 1413-->
+    <header class="headerbtn">
+        <a href="https://en.wikipedia.org/wiki/Classified_information_in_the_United_States">Classifications Defined</div>
+        <div class="navBtn-right">
+            <a class="active" href="#home">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+    </header><!--Page Header-->
+<h1>Disclaimer: You are attempting to enter a classified system.</h1>
+<br><!--Disclaimer telling user that site is sensitive-->
+<p>Enter Your Personalized Pin To Enter Site</p>
+
+    <button id="btnopen" onclick="togglePopup()">Click To Enter</button><!--Button for user to enter their pin-->
+
+    <div id="container">
+      <div id="popup">
+        <h2>Enter your four-digit PIN:</h2>
+        <input type="text" id="pin" maxlength="4" />
+        <br /><br />
+        <button id="submitbtn" onclick="validatePin()">Submit</button>
+      </div>
+    </div><!--Popup container with popup for pin entry-->
+
+    <script src="inside.js"></script>
+  </body>
+</html>

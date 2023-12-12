@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="picassostyles.css" />
+    <title>Contact Information</title>
+  </head>
+  <body>
+    <div class="landing">
+      <nav>
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-E7LpCIrH11g%2FT9thAEjV1-I%2FAAAAAAAAGVc%2FpG3qv1APooA%2Fs1600%2FPablo-Picasso.jpg&f=1&nofb=1&ipt=b67468fe1985207df32491ffb302fa376474a716039dbc48cc75741301ac4a90&ipo=images"
+          alt="English Bulldod sitting on a hill with Vermont mountains as a backdrop"
+          width="90"
+          height="90"
+        />
+
+        <ul>
+          <li><a href="picassomain.html">HOME</a></li>
+          <li><a href="picassopurchase.html">PURCHASE</a></li>
+        </ul>
+      </nav>
+      <!--Navigation-->
+
+      <div class="mainintro">
+        <h1>Select Your Items</h1>
+        <form action="/action_page.php" method="get">
+          <br />
+          <div class="formdet">
+            <label for="title">Title</label
+            ><!--Give the same name attribute below in order to ensure only one selection can be made-->
+
+            <label for="Mr">Mr.</label>
+            <input type="radio" id="Mr." name="title" value="Mr." />
+
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." name="title" value="Mrs." />
+
+            <label for="Other">Other</label>
+            <input type="text" id="other" name="title" value="Identify Here" />
+          </div>
+          <br />
+          <div class="formdet">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Enter First Name"
+              required
+            />
+          </div>
+          <br />
+          <div class="formdet">
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Enter Last Name"
+              required
+            />
+          </div>
+          <br />
+          <div class="formdet">
+            <label for="email">Enter Your Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="youremail@example.com"
+              required
+            />
+          </div>
+          <!--Email-->
+          <br />
+          <div class="formdet">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter Phone Number"
+              required
+            />
+          </div>
+          <!--Phone Number-->
+          <br />
+          <div class="formdet">
+            <label for="addinfo">Additional Information</label>
+            <input
+              type="text"
+              id="text"
+              name="text"
+              placeholder="Additional Information"
+            />
+          </div>
+          <!--Added text box-->
+          <br />
+          <div class="formdet">
+            <label for="Items">Select Items</label
+            ><!--Give the same name attribute below in order to ensure only one selection can be made-->
+
+            <label for="item1">Item1</label>
+            <input type="radio" id="item1" name="title" value="item1" />
+
+            <label for="item2">Item2</label>
+            <input type="radio" id="item2" name="title" value="item2" />
+            <label for="item2">Item3</label>
+            <input type="radio" id="item3" name="title" value="item3" />
+            <label for="item2">Item4</label>
+            <input type="radio" id="item4" name="title" value="item4" />
+            <label for="item2">Item5</label>
+            <input type="radio" id="item5" name="title" value="item5" />
+
+            <label for="item6">Enter Special Request</label>
+            <input
+              type="text"
+              id="other"
+              name="title"
+              value="Enter Special Request"
+            />
+          </div>
+
+          <br />
+          <div class="formdetbtn">
+            <input type="reset" id="boldtxt" />
+          </div>
+          <br />
+          <div class="formdetbtn">
+            <input type="submit" value="submit" id="boldtxt" />
+          </div>
+        </form>
+      </div>
+      <!--Introduction Section-->
+    </div>
+    <!--Contact Landing Page-->
+  </body>
+</html>

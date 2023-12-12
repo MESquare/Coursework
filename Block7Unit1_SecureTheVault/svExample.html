@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="vault.css" />
+    <title>Pin Code Popup</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      #popup-container {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        align-items: center;
+        justify-content: center;
+      }
+
+      #popup {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      #pin-input {
+        padding: 10px;
+        font-size: 16px;
+      }
+
+      #submit-btn {
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="togglePopup()">Open Popup</button>
+
+    <div id="popup-container">
+      <div id="popup">
+        <h2>Enter your four-digit PIN:</h2>
+        <input type="text" id="pin-input" maxlength="4" />
+        <br /><br />
+        <button id="submit-btn" onclick="validatePin()">Submit</button>
+      </div>
+    </div>
+
+    <script>
+      let x = 7;
+      let y = 6;
+
+      function togglePopup() {
+        var popupContainer = document.getElementById("popup-container");
+        if (
+          popupContainer.style.display === "none" ||
+          popupContainer.style.display === ""
+        ) {
+          popupContainer.style.display = "flex";
+        } else {
+          popupContainer.style.display = "none";
+        }
+      }
+
+      function validatePin() {
+        var enteredPin = document.getElementById("pin-input").value;
+
+        // Calculate the results of the four operations
+        var num1 = x - y;
+        var num2 = 2 + 2;
+        var num3 = 1 * 1;
+        var num4 = 6 / 2;
+
+        // Convert results to strings
+        var expectedPin1 = num1.toString();
+        var expectedPin2 = num2.toString();
+        var expectedPin3 = num3.toString();
+        var expectedPin4 = num4.toString();
+
+        // Concatenate the results
+        var expectedPin =
+          expectedPin1 + expectedPin2 + expectedPin3 + expectedPin4;
+
+        // Take the last four digits
+        expectedPin = expectedPin.slice(-4);
+
+        // Compare the entered PIN with the expected PIN
+        if (enteredPin === expectedPin) {
+          alert('PIN is valid! Opening "Valid Access" window.');
+          openValidAccessWindow();
+        } else {
+          alert("Invalid PIN. Please try again.");
+        }
+      }
+
+      function openValidAccessWindow() {
+        // Open a new browser window named "Valid Access"
+        window.open(
+          "valid-access.html",
+          "Valid Access",
+          "width=600,height=400"
+        );
+      }
+    </script>
+  </body>
+</html>
