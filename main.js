@@ -1,3 +1,5 @@
+//Null line - attempting Github push procedures on this code copy
+
 //Create an array [] to house date
 //This array contains three column headings - name, price, and location
 //Each object literial {} host the data withint aht object in a single memory location
